@@ -6,39 +6,39 @@ class DataB:
         self.con = sqlite3.connect("db/data_for_game.db")
         self.cur = self.con.cursor()
         self.con.commit()
-        self.add_to_table_w_i('Кто изображен на картинке?', 'pictures/img11.png', 1,
+        self.add_to_table_w_i('Кто изображен на картинке?', 'pictures/img1.png', 1,
                               '"Райан Гослинг" "Алеша Попович" "Брэд Пит"', '"Человек паук"')
-        self.add_to_table_w_i('Что изображено на картинке?', 'pictures/img12.png', 1,
+        self.add_to_table_w_i('Что изображено на картинке?', 'pictures/img2.png', 1,
                               '"Круг" "Морфологический разбор" "Квадрат"', '"Трегольник"')
-        self.add_to_table_w_i('С чем связана данное изображение?', 'pictures/img13.png', 1,
+        self.add_to_table_w_i('С чем связана данное изображение?', 'pictures/img3.png', 1,
                               '"День Святого Валентина" "День Святого Патрика" "Николай Валуев"', '"Новый Год"')
-        self.add_to_table_w_i('С каким процессом связана картинка?', 'pictures/img21.png', 2,
+        self.add_to_table_w_i('С каким процессом связана картинка?', 'pictures/img4.png', 2,
                               '"Продажа диванов" "Миграция уток" "34"', '"Преобразование растения в торф"')
         self.add_to_table_w_i('Владельцем какой компании является человек на фото?',
-                              'pictures/img22.png',
+                              'pictures/img5.png',
                               2,
                               '"Озон" "Бентли" "Амазон"', '"Форд"')
-        self.add_to_table_w_i('Где были изобретены первые часы?', 'pictures/img23.png', 2,
+        self.add_to_table_w_i('Где были изобретены первые часы?', 'pictures/img6.png', 2,
                               '"Рим" "Люксембург" "Шумеры"', '"Древний Египет"')
-        self.add_to_table_w_i('Какое событие отражено на картине?', 'pictures/img31.png', 3,
+        self.add_to_table_w_i('Какое событие отражено на картине?', 'pictures/img7.png', 3,
                               '"Резня старообрядцев" "Празднование пасхи" "Римская революция"',
                               '"Варфоломеевская ночь"')
-        self.add_to_table_w_i('Что изображено на чертеже?', 'pictures/img32.png', 3,
+        self.add_to_table_w_i('Что изображено на чертеже?', 'pictures/img8.png', 3,
                               '"Мотор лодки" "Подвеска Audi Q6" "Двигатель трактора"', '"Двигатель белаза"')
-        self.add_to_table_w_i('Где находится данное здание?', 'pictures/img33.png', 3,
+        self.add_to_table_w_i('Где находится данное здание?', 'pictures/img9.png', 3,
                               '"Германия" "Англия" "Черногория"', '"Россия"')
-        self.add_to_table_w_i('Какое вещество здесь изображено?', 'pictures/img41.png', 4,
+        self.add_to_table_w_i('Какое вещество здесь изображено?', 'pictures/img10.png', 4,
                               '"Кремний" "Алмаз" "Серебро"', '"Палладий"')
-        self.add_to_table_w_i('Отгадайте загадку?', 'pictures/img42.png', 4,
+        self.add_to_table_w_i('Отгадайте загадку?', 'pictures/img11.png', 4,
                               '"Электрон" "Закон тяготения" "Микросхема"', '"Электромагнитное поле"')
-        self.add_to_table_w_i('Кем была написана данная картина?', 'pictures/img43.png', 4,
+        self.add_to_table_w_i('Кем была написана данная картина?', 'pictures/img12.png', 4,
                               '"Английским художником" "Французским художником" "Прусским художником"',
                               '"Австрийским художником"')
-        self.add_to_table_w_i('От чего эта схема?', 'pictures/img51.png', 5,
+        self.add_to_table_w_i('От чего эта схема?', 'pictures/img13.png', 5,
                               '"От монитора" " От роутера" "От фонарика"', '"От пылесоса"')
-        self.add_to_table_w_i('Чей данный логотип?', 'pictures/img52.png', 5,
+        self.add_to_table_w_i('Чей данный логотип?', 'pictures/img14.png', 5,
                               '"Tostitos" "Ferrari" "Berkshire"', '"Roxy"')
-        self.add_to_table_w_i('Переведите сообщение:', 'pictures/img53.png', 5,
+        self.add_to_table_w_i('Переведите сообщение:', 'pictures/img15.png', 5,
                               '"Важно - никогда не сдавайся!" "Порхай - как красивая бабочка!" "Черепаха"',
                               '"Квест - это очень веселая затея!"')
         self.add_to_table('К какому типу относится яблоко?', 1, '"Овощ" "Ягода" "Корнеплод"',

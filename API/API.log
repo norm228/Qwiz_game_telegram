@@ -1,0 +1,65 @@
+2024-04-22 17:18:55,019 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-04-22 17:18:55,019 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-04-22 17:21:43,736 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:21:43] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:21:51,629 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:21:51] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:22:00,800 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:00] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:22:06,179 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:06] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:22:19,391 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:19] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:22:37,787 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:37] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:22:46,905 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:46] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:22:54,291 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:22:54] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:23:17,821 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:23:17] "POST /api/user/5163436907 HTTP/1.1" 200 -
+2024-04-22 17:24:48,821 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:24:48] "GET /api/user/5163436907 HTTP/1.1" 200 -
+2024-04-22 17:24:50,024 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:24:50] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:25:00,215 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:00] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:25:05,679 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:05] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:25:12,255 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:12] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:25:19,051 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:19] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:25:29,905 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:29] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:25:36,868 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:36] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:25:44,227 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:25:44] "POST /api/user/5163436907 HTTP/1.1" 200 -
+2024-04-22 17:26:58,804 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:26:58] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:27:03,886 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:03] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:27:12,722 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:12] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:27:16,584 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:16] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:27:21,922 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:21] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:27:27,384 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:27] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:27:33,630 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:33] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:27:46,446 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:46] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:27:54,924 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:27:54] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:28:00,278 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:00] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:02,249 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:02] "POST /api/user/5163436907 HTTP/1.1" 200 -
+2024-04-22 17:28:06,530 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:06] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:08,503 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:08] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:13,038 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:13] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:15,194 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:15] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:17,435 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:17] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:28:19,968 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:19] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:23,385 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:23] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:25,093 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:25] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:29,671 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:29] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:35,754 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:35] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:41,628 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:41] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:28:42,351 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:42] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:28:51,618 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:51] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:28:57,605 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:57] "POST /api/user/1432013485 HTTP/1.1" 200 -
+2024-04-22 17:28:57,769 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:28:57] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:29:01,103 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:01] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:29:06,324 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:06] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:29:11,189 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:11] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-22 17:29:11,985 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:11] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:29:16,425 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:16] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:29:17,790 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:17] "GET /api/quest/4 HTTP/1.1" 200 -
+2024-04-22 17:29:22,750 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:22] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:29:27,749 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:27] "GET /api/quest/2 HTTP/1.1" 200 -
+2024-04-22 17:29:30,074 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:30] "POST /api/user/5163436907 HTTP/1.1" 200 -
+2024-04-22 17:29:31,729 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:31] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:29:36,510 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:36] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:29:43,432 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:43] "GET /api/quest/3 HTTP/1.1" 200 -
+2024-04-22 17:29:59,160 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:29:59] "POST /api/user/1432013485 HTTP/1.1" 200 -
+2024-04-22 17:30:09,689 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 17:30:09] "GET /api/user/1432013485 HTTP/1.1" 200 -
+2024-04-22 20:09:01,241 - werkzeug - INFO - 127.0.0.1 - - [22/Apr/2024 20:09:01] "GET /api/quest/1 HTTP/1.1" 200 -
+2024-04-23 15:30:10,089 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-04-23 15:30:10,089 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
