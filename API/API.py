@@ -1,3 +1,5 @@
+import logging
+
 from flask import Flask, make_response, jsonify
 
 from data import db_session, qwiz_api
@@ -5,6 +7,10 @@ from db import DataB
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'qqweertty_secret_key'
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filename='API.log')
+logger = logging.getLogger(__name__)
+
 
 @app.errorhandler(404)
 def not_found(error):

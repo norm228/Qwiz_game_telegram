@@ -8,8 +8,9 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, MessageHandler, filters, CommandHandler, ConversationHandler, ContextTypes
 
 load_dotenv()
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    filename='game.log')
 logger = logging.getLogger(__name__)
 
 reply_keyboard1 = [['/start']]
