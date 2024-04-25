@@ -41,6 +41,13 @@ def refactor_user(user_id, money):
     logger.info(str(requests.post(request, json=params)))
 
 
+def get_cat():
+    a = requests.get('https://api.thecatapi.com/v1/images/search').json()[0]['url']
+    while a[-4:] != '.jpg':
+        a = requests.get('https://api.thecatapi.com/v1/images/search').json()[0]['url']
+    return requests.get(a).content
+
+
 def get_user(user_id):
     request = f'http://127.0.0.1:8000/api/user/{user_id}'
     a = requests.get(request).json()
@@ -202,8 +209,10 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f'Поздравляю вы победили!\n'
                                         f'Вы вывиграли {money_to_qwest[context.user_data["qwest_num"]]} рублей.\n'
                                         f'До новых встреч.')
+        await update.message.reply_photo(get_cat())
         refactor_user(user.id, money_to_qwest[context.user_data["qwest_num"]])
         context.user_data.clear()
+        return 4
     context.user_data['second_chance'] = False
     await update.message.reply_text('И это правильный ответ.')
     await update.message.reply_text(f'хотите продолжить?', reply_markup=murkup3)
